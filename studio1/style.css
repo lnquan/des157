@@ -16,7 +16,7 @@ header{
     margin:30px 0px 15px 20px; 
 }
 
-#name{
+#name1, #name2, #name3{
     display: inline-block;
     color:#ffcc00;
     font-size:30px;
