@@ -1,0 +1,70 @@
+body{
+    background-color:white;
+    margin:0 auto;
+    width:800px;
+    font-family: 'Muli', sans-serif;
+    font-size: 12px;
+    color:#737373;
+}
+
+#top {
+    position: fixed;
+    width:800px;
+    background: white;
+    border-bottom: solid;
+    border-bottom-color: #ffcc00;
+    border-bottom-width: thin;
+    margin-top:-30px;
+    padding:40px 0px 5px 0px;
+}
+
+h2{
+    margin: 0;
+    font-size: 20px;
+}
+
+#blog{
+    padding-top:40px;
+}
+
+#back{
+    float:right;
+    margin-top:0;
+}
+
+#jan12 p{
+    width:370px;
+    float:right;
+    position:relative;
+    top:-15px;
+}
+
+img{
+    float:left;
+    padding-right:30px;
+}
+
+#blog h3{
+    color: #ffcc00;
+}
+
+a{
+    text-decoration: none;
+    color:#737373;
+    font-size: 12px;
+}
+
+a:hover{
+    color:#ffcc00;
+}
+
+footer{
+    clear:both;
+    text-align: center;
+}
+
+footer p{
+    display: inline-block;
+    padding: 0px 25px 0px 25px;
+    font-size: 12px;
+}
