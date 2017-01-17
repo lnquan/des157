@@ -40,6 +40,11 @@ div{
     
 }
 
+#jan12 img{
+    width:380px; 
+    height:208px;
+}
+
 a{
     text-decoration: none;
     color:#737373;
