@@ -1,0 +1,49 @@
+<!--NOTE: Replace all of the uppercase text from glenda with your own custom content-->
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>! ADD A DESCRIPTIVE TITLE HERE...DO NOT FORGET TO UPDATE THIS !</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px
+        }
+
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            color: white;
+            background-color: #333;
+            font-size: 11px;
+            margin: 24px;
+        }
+
+        h1 {
+            margin-bottom: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Chapter 3 Minimum</h1>
+    <h2>open the console to see the results of the script</h2>
+    <script>
+        // returns the smallest number in the results
+      function min(base, exponent){
+      	var result = 1;
+        if (base < exponent){
+          result = base;
+        }
+        else{
+          result = exponent;
+        }
+        return result;
+      }
+
+      console.log(min(0, 10));
+      // → 0
+      console.log(min(0, -10));
+      // → -10
+    </script>
+</body>
