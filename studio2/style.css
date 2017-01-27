@@ -2,9 +2,33 @@
 
 /* CSS Document */
 
+
 /* start all css with a reset */
 
 * {
-    margin: 0px;
-    padding: 0px
+  margin: 0px;
+  padding: 0px
+}
+
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: white;
+  background-color: black;
+  width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+#input {
+  width: 100%;
+  margin: auto;
+  text-align: right;
+}
+
+label [type="text"] {
+  text-align: right;
 }

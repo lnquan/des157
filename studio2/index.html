@@ -4,60 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <title>DOGE CREATOR</title>
-    <link href="style.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet" />
     <script src='script.js' type="text/javascript"></script>
 </head>
 
 <body>
-  <header>
-    <h1>DOGE CREATOR</h1>
-  </header>
-<!-- article for input form-->
-  <article>
-    <form name = "f">
-      <!-- div allows input of adjective -->
-      <div>
-        <label>adjective</label>
-        <input type="text" name="adj1">
-      </div>
+    <header>
+        <h1>DOGE CREATOR</h1>
+    </header>
+    <!-- article for input form-->
+    <article id="input">
+        <form name="f">
+            <!-- div allows input of adjective -->
+            <div>
+                <label>adjective</label>
+                <input type="text" name="adj">
+            </div>
 
-      <!-- div allows input of adjective -->
-      <div>
-        <label>adjective</label>
-        <input type="text" name="adj2">
-      </div>
+            <!-- div allows input for adj2 -->
+            <div>
+                <label>adjective</label>
+                <input type="text" name="adj2">
+            </div>
 
-      <!-- div allows input of verb -->
-      <div>
-        <label>verb</label>
-        <input type="text" name="verb1">
-      </div>
+            <!-- div allows input for adv -->
+            <div>
+                <label>verb</label>
+                <input type="text" name="adv">
+            </div>
 
-      <!-- div allows input of verb -->
-      <div>
-        <label>verb</label>
-        <input type="text" name="verb2">
-      </div>
+            <!-- div allows input for verb -->
+            <div>
+                <label>verb</label>
+                <input type="text" name="verb">
+            </div>
 
-      <!-- div allows input of adverb -->
-      <div>
-        <label>adverb</label>
-        <input type="text" name="adverb1">
-      </div>
+            <!-- div allows input for noun -->
+            <div>
+                <label>noun</label>
+                <input type="text" name="noun">
+            </div>
 
-      <!-- div allows input of adverb -->
-      <div>
-        <label>adverb</label>
-        <input type="text" name="adverb2">
-      </div>
+            <!-- buttons: one for reset and one for submit -->
+            <input type="reset" value="reset" />
+            <input type="submit" value="submit" />
+        </form>
 
-      <!-- buttons: one for reset and one for submit -->
-      <input type="reset" value="reset"/>
-      <input type="submit" value="submit"/>
-    </form>
-  </article>
-  <p id= "myAdj1"></p>
-  <p id= "myVerb1"></p>
+    </article>
+
+    <p id="myAdj"></p>
+    <p id="myAdj2"></p>
+    <p id="myAdv"></p>
+    <p id="myVerb"></p>
+    <p id="myNoun"></p>
+
+    <article id="sources">
+        <h3>Sources</h3>
+        <ul>
+            <li><a href="https://newevolutiondesigns.com/40-super-hd-galaxy-wallpapers">galaxy image</a></li>
+            <li><a href="https://www.reddit.com/r/cutouts/comments/2bpc4a/doge/">doge image</a></li>
+        </ul>
+    </article>
+
+    <img src="doge.png" alt="doge with galaxy image">
+
 </body>
 
 </html>

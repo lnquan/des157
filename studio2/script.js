@@ -1,4 +1,5 @@
 // JavaScript Document
+console.log('reading js');
 
 document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
@@ -7,36 +8,50 @@ document.addEventListener("DOMContentLoaded", function(event) {
     document.f.onsubmit = processForm;
 
     //define the process function
-    function processForm(){
-      // stores adj1 variable
-      var adj1 = document.f.adj1.value;
+    function processForm() {
+        console.log('process');
 
-      //stores adj2 variable
-      var adj2 = document.f.adj2.value;
+        // stores adj variable
+        var adj = document.f.adj.value;
+        console.log('adj is ' + adj);
 
-      //stores verb1
-      var verb1 = document.f.verb1.value;
+        //writes message for adj
+        var myAdj = document.getElementById('myAdj');
+        myAdj.innerHTML = 'much ' + adj;
 
-      //stores verb 2
-      var verb2 = document.f.verb2.value;
+        //stores adj2 variable
+        var adj2 = document.f.adj2.value;
+        console.log('adj2 is ' + adj2);
 
-      //stores adverb1
-      var adverb1 = document.f.adverb1.value;
+        //writes message for adj2
+        var myAdj2 = document.getElementById('myAdj2');
+        myAdj2.innerHTML = 'so ' + adj2;
 
-      //stores adverb2
-      var adverb2 = document.f.adverb2.value;
+        //stores adv variable
+        var adv = document.f.adv.value;
+        console.log('adv is ' + adv);
 
-      //points messages
-      var myAdj1 = document.getElementByID(myAdj1);
-      myVerb1.innerHTML = 'too ' + adj1;
+        //writes message for adv
+        var myAdv = document.getElementById('myAdv');
+        myAdv.innerHTML = 'such ' + adv;
 
-      var myVerb1 = document.getElementByID(myVerb1);
-      myVerb1.innerHTML = 'so ' + verb1;
+        //stores noun variable
+        var noun = document.f.noun.value;
+        console.log('noun is ' + noun);
 
+        //writes message for noun
+        var myNoun = document.getElementById('myNoun');
+        myNoun.innerHTML = 'wow very ' + noun;
 
+        //store verb variable
+        var verb = document.f.verb.value;
+        console.log('verb is ' + verb);
 
-      //prevent page from reloading
-      return false;
+        //writes message for verb
+        var myNoun = document.getElementById('myVerb');
+        myVerb.innerHTML = 'many ' + verb;
+
+        //prevent page from reloading
+        return false;
     }
-
-}
+});
