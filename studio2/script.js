@@ -51,6 +51,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var myNoun = document.getElementById('myVerb');
         myVerb.innerHTML = 'many ' + verb;
 
+        //call a new alert()  if boxes are empty, if not, run submit
+        if (adj == "" || adj2 == "" || adv == "" || verb == "" || noun == "") {
+            alert("doge wants you to fill out all the boxes");
+     window.location = "#title";
+}
+
+
+
         //prevent page from reloading
         return false;
     }

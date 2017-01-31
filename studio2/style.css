@@ -6,156 +6,183 @@
 /* start all css with a reset */
 
 * {
-  margin: 0px;
-  padding: 0px
+    margin: 0px;
+    padding: 0px
 }
 
 body {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  color: white;
-  background-color: black;
-  width: 800px;
-  margin: auto;
-  font-size:15pt;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: white;
+    background-color: black;
+    width: 800px;
+    margin: auto;
+    font-size: 15pt;
 }
 
 h1 {
-  font-size: 60px;
-  text-align: center;
-  padding-top:20px;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20px;
 }
 
-h1:hover{
-background-color:black;
-  color:magenta;
+h1:hover {
+    background-color: black;
+    color: magenta;
 }
 
-#inputSection{
-  width:800px;
-  height:100vh;
-  background-color: black;
-  color:white;
+
+/*  in[put box stylize */
+
+#inputSection {
+    width: 800px;
+    height: 100vh;
+    background-color: black;
+    color: white;
 }
 
-label:hover{
-  background-color:black;
-  color:yellow;
+label:hover {
+    background-color: black;
+    color: yellow;
 }
 
 #input {
-  text-align: right;
-  width:410px;
-  margin:auto;
-  padding-right:80px;
-  padding-top:40px;
-  padding-bottom:30px;
+    text-align: right;
+    width: 410px;
+    margin: auto;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 50px;
 }
 
 input[type="text"] {
-width:3in;
-padding:10px;
-margin-top:10px;
-border:solid;
-border-color: white;
-background-color:black;
-color:cyan;
-font-family: "Comic Sans MS", cursive, sans-serif;
-font-size:15pt;
+    width: 3in;
+    padding: 10px;
+    margin-top: 10px;
+    border: solid;
+    border-color: white;
+    background-color: black;
+    color: cyan;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15pt;
 }
 
-input[type="text"]:hover{
-    border-color:yellow;
+input[type="text"]:hover {
+    border-color: yellow;
 }
 
 input[type="reset"], input[type="submit"] {
-  margin-top:10px;
-  padding:12px;
-  border:solid;
-  border-color:white;
-  background-color:black;
-  color:white;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-weight:bold;
-  font-size:15pt;
+    margin-top: 10px;
+    padding: 12px;
+    border: solid;
+    border-color: white;
+    background-color: black;
+    color: white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    font-size: 15pt;
 }
 
-input[type="reset"]:hover, input[type="submit"]:hover{
-  color:magenta;
-  background-color:black;
-  border-color:magenta;
+input[type="reset"]:hover, input[type="submit"]:hover {
+    color: magenta;
+    background-color: black;
+    border-color: magenta;
 }
 
-#answer{
-  font-size:15pt;
+
+/* move doge image */
+
+#doge {
+    height: 100%;
 }
+
+#doge img {
+    padding-top: 100px;
+}
+
+#answer {
+    font-size: 18pt;
+}
+
 
 /* for much ____*/
-#myAdj{
-  position:relative;
-  top:-325px;
-  left:120px;
-  color:cyan;
-  background-color:inherit;
+
+#myAdj {
+    position: relative;
+    top: -325px;
+    left: 120px;
+    color: cyan;
+    background-color: inherit;
 }
+
 
 /* for so ____*/
-#myAdj2{
-  position:relative;
-  top:-450px;
-  right:-300px;
-  color:white;
-  background-color: inherit;
+
+#myAdj2 {
+    position: relative;
+    top: -450px;
+    right: -300px;
+    color: white;
+    background-color: inherit;
 }
+
 
 /* for such____*/
-#myAdv{
-  position:relative;
-  top:-300px;
-  right:-510px;
-  color:yellow;
-  background-color: inherit;
+
+#myAdv {
+    position: relative;
+    top: -300px;
+    right: -510px;
+    color: yellow;
+    background-color: inherit;
 }
 
+
 /* for many____*/
-#myVerb{
-  position:relative;
-  top:-240px;
-  left:80px;
-  color:magenta;
-  background-color: inherit;
+
+#myVerb {
+    position: relative;
+    top: -250px;
+    left: 80px;
+    color: magenta;
+    background-color: inherit;
 }
 
 
 /*for wow very _____*/
-#myNoun{
-  position:relative;
-  top:-200px;
-  left:550px;
-  color:black;
-  background-color:inherit;
+
+#myNoun {
+    position: relative;
+    top: -240px;
+    left: 550px;
+    color: black;
+    background-color: inherit;
 }
 
-#links{
-  display:inline;
+
+/* stylizing footer */
+
+#links {
+    display: inline;
 }
 
-#sources{
-  padding-top:50px;
+#sources {
+    padding-top: 50px;
+    margin-top: 100px;
 }
 
-footer{
-  text-align: center;
-  padding-top:30px;
+footer {
+    text-align: center;
+    padding-top: 30px;
 }
 
-a{
-  color:white;
-  background-color: black;
-  text-decoration: none;
-  padding-right:30px;
+a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding-right: 30px;
 }
 
-a:hover{
-  color:cyan;
-  background-color: black;
+a:hover {
+    color: cyan;
+    background-color: black;
 }
