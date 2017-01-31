@@ -130,8 +130,8 @@ input[type="reset"]:hover, input[type="submit"]:hover {
 
 #myAdv {
     position: relative;
-    top: -300px;
-    right: -510px;
+    top: -280px;
+    right: -550px;
     color: yellow;
     background-color: inherit;
 }
@@ -152,8 +152,8 @@ input[type="reset"]:hover, input[type="submit"]:hover {
 
 #myNoun {
     position: relative;
-    top: -240px;
-    left: 550px;
+    top: -480px;
+    left: 500px;
     color: orange;
     background-color: inherit;
 }
