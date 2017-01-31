@@ -54,4 +54,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
         //prevent page from reloading
         return false;
     }
+
 });
