@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>! ADD A DESCRIPTIVE TITLE HERE...DO NOT FORGET TO UPDATE THIS !</title>
+    <title>Cat and Hat</title>
     <style>
         * {
             margin: 0px;
@@ -17,18 +17,48 @@
             background-color: #333;
             font-size: 11px;
             margin: 24px;
+            overflow-x: hidden;
         }
 
         h1 {
             margin-bottom: 24px;
         }
+
+        #cathat{
+          position:relative;
+          top:200px;
+          left:400px
+        }
     </style>
 </head>
 
 <body>
-    <h1>! ADD THE CHAPTER NUMBER HERE FOLLOWED BY BRIEF TITLE FOR THE EXERCISE !</h1>
+    <h1>Chapter 13 - The Cat's Hat</h1>
     <h2>open the console to see the results of the script</h2>
+    <section id='cathat'>
+    <img src="cat.png" id="cat" alt="cat" style="position: absolute">
+    <img src="hat.png" id="hat" alt="hat" style="position: absolute">
+  </section>
+
+
     <script>
-        // ADD DESCRIPTIVE COMMENTS BEFORE STATEMENTS AND BLOCK OF CODE
+        //cat and hat runs on opposite ellipses
+        var cat = document.querySelector("#cat");
+          var hat = document.querySelector("#hat");
+          var angle = 0, lastTime = null;
+         function animate(time){
+          if (lastTime !=null)
+            	angle += (time - lastTime) * 0.001;
+            lastTime = time;
+            hat.style.top = (Math.sin(angle) * 10) + "px";
+            hat.style.left = (Math.cos(angle) * 100) + "px";
+
+           cat.style.top = (Math.sin(angle) * 10) + "px";
+            cat.style.left = (Math.cos(angle) * -100) + "px";
+
+            requestAnimationFrame(animate);
+
+         }
+          requestAnimationFrame(animate);
     </script>
 </body>
