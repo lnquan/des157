@@ -30,6 +30,9 @@ h1:hover {
     color: magenta;
 }
 
+h2{
+  display: none;
+}
 
 /*  in[put box stylize */
 
