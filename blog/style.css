@@ -15,7 +15,6 @@ body{
     border-bottom-width: thin;
     margin-top:-30px;
     padding:40px 0px 5px 0px;
-    background-color:white;
 }
 
 h2{
@@ -34,8 +33,8 @@ h2{
 
 img{
   float:left;
-  margin-top:30px;
-  margin-bottom:30px;
+  margin-top:40px;
+  margin-bottom:50px;
   padding-right:30px;
 }
 
@@ -44,6 +43,7 @@ h3{
   float:right;
   width:390px;
   color:#ffcc00;
+  background-color: inherit;
   font-size:15pt;
   padding-top:10px;
 }
