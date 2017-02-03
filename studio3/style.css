@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* start all css with a reset */
+
+* {
+  margin: 0px;
+  padding: 0px
+}
+
+body {
+  width: 1000px;
+  margin: 50px auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 30pt;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+#main {
+  width: 900px;
+  margin: auto;
+}
+
+#backpack {
+  position: relative;
+  left: 0;
+}
+
+#bigPocket, #bottomPocket, #topPocket, #rightPocket, #leftPocket {
+  position: absolute;
+  top: 150px;
+  left: 800px;
+  border: solid;
+  border-color: black;
+  padding: 10px;
+  display: none;
+}
+
+#bigH {
+  position: relative;
+  top: -436px;
+  left: 80px;
+  opacity: 0;
+}
+
+#topH {
+  position: relative;
+  top: -729px;
+  left: -278px;
+  opacity: 0;
+}
+
+#bottomH {
+  position: relative;
+  top: -732px;
+  left: 93px;
+  opacity: 0;
+}
+
+#rightH {
+  position: relative;
+  top: -796px;
+  left: -4px;
+  opacity: 0;
+}
+
+#leftH {
+  position: relative;
+  top: -753px;
+  left: -377px;
+  opacity: 0;
+}
+
+#bigH:hover, #topH:hover, #bottomH:hover, #leftH:hover, #rightH:hover {
+  opacity: 1;
+  transition: opacity 1s;
+}
