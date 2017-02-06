@@ -83,43 +83,127 @@ h1 {
     transition: opacity 1s;
 }
 
-#bigp_h {
+#bigp_h, #topp_h, #botp_h, #rp_h, #lp_h{
     position: absolute;
     top: 150px;
     left: 800px;
+    display:none;
 }
 
 #bigp_h1 {
-    position: relative;
-    left: 177px;
-    top: 68px;
-    opacity:0;
+    position: absolute;
+    left: 176px;
+    top: 165px;
+    opacity: 0;
+    /*display:none;*/
 }
 
 #bigp_h2 {
-    position: relative;
-    left: 39px;
-    top: 73px;
+    position: absolute;
+    left: 137px;
+    top: 132px;
     opacity:0;
 }
 
+
+/* Contents of the biggests pocket hover effect */
 #bigp_h3 {
-    position: relative;
-    left: -19px;
-    top: 61px;
+    position: absolute;
+    left: 123px;
+    top: 63px;
     opacity:0;
 }
 
 #bigp_h4 {
-    position: relative;
-    left: -184px;
+    position: absolute;;
+    left: 100px;
     top: 47px;
     opacity:0;
   }
 
 #bigp_h5 {
-    position: relative;
+    position: absolute;;
     left: 58px;
-    top: -128px;
+    top: 16px;
     opacity:0;
+}
+
+
+
+#tp_h1{
+  position:absolute;
+  top:46px;
+  left:16px;
+  opacity: 0;
+}
+
+#tp_h2{
+  position:absolute;
+  top:19px;
+  left:125px;
+  opacity: 0;
+}
+
+#tp_h3{
+  position:absolute;
+  top:103px;
+  left:249px;
+  opacity: 0;
+}
+
+#tp_h4{
+  position:absolute;
+  top:43px;
+  left:150px;
+  opacity: 0;
+}
+
+#tp_h5{
+  position:absolute;
+  top:171px;
+  left:187px;
+  opacity: 0;
+}
+
+#tp_h6{
+  position:absolute;
+  top:154px;
+  left:78px;
+  opacity: 0;
+}
+
+
+#bp_h1{
+  position:absolute;
+  top:35px;
+  left:17px;
+  opacity: 0;
+}
+
+#bp_h2{
+  position:absolute;
+  top:47px;
+  left:169px;
+  opacity: 0;
+}
+
+#rp_h1{
+  position:absolute;
+  top:20px;
+  left:132px;
+  opacity: 0;
+}
+
+#lp_h1{
+  position:absolute;
+  top:14px;
+  left:74px;
+  opacity: 0;
+}
+
+#lp_h2{
+  position:absolute;
+  top:52px;
+  left:166px;
+  opacity: 0;
 }
