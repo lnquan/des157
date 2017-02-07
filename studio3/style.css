@@ -2,7 +2,6 @@
 
 /* CSS Document */
 
-
 * {
     margin: 0px;
     padding: 0px
@@ -10,34 +9,35 @@
 
 body {
     width: 900px;
-    margin:auto;
+    margin: auto;
     font-family: 'Raleway', sans-serif;
 }
 
-#main{
-  position: relative;
-  top:20px;
-  left:0;
+/*Sets the whole page into relative mode so it centers*/
+#main {
+    position: relative;
+    top: 20px;
+    left: 0;
 }
+
+/*Use position absolute for easier positioning*/
 
 h1 {
     font-size: 40pt;
     text-align: center;
     font-weight: bold;
     font-family: 'Pangolin', cursive;
-    color:#FFDD52;
+    color: #FFDD52;
     background-color: inherit;
     position: absolute;
-    top:590px;
-    right:200px;
+    top: 590px;
+    right: 200px;
 }
 
 #backpack {
     position: absolute;
     left: 0;
 }
-
-
 
 #bigH {
     position: absolute;
@@ -70,7 +70,7 @@ h1 {
 #leftH {
     position: absolute;
     top: 364px;
-    left:9px;
+    left: 9px;
     opacity: 0;
 }
 
@@ -79,27 +79,27 @@ h1 {
     transition: opacity .7s;
 }
 
-#bigPocket, #topPocket, #bottomPocket, #rightPocket, #leftPocket{
-    position:absolute;
+#bigPocket, #topPocket, #bottomPocket, #rightPocket, #leftPocket {
+    position: absolute;
     top: 50px;
-    left:600px;
+    left: 600px;
     border: solid;
     border-color: black;
     padding: 10px;
     display: none;
 }
 
-
-#bigp_h, #topp_h, #botp_h, #rp_h, #lp_h{
+#bigp_h, #topp_h, #botp_h, #rp_h, #lp_h {
     position: absolute;
     top: 50px;
     left: 600px;
-    display:none;
+    display: none;
 }
 
-#bigp_h1, #bigp_h2, #bigp_h3, #bigp_h4, #bigp_h5, #tp_h1, #tp_h2, #tp_h3, #tp_h4, #tp_h5, #tp_h6, #bp_h1, #bp_h2, #rp_h1, #lp_h1, #lp_h2{
-  opacity: 0;
-  transition: opacity .7s;
+/*sets the opacity and opacity transition rate*/
+#bigp_h1, #bigp_h2, #bigp_h3, #bigp_h4, #bigp_h5, #tp_h1, #tp_h2, #tp_h3, #tp_h4, #tp_h5, #tp_h6, #bp_h1, #bp_h2, #rp_h1, #lp_h1, #lp_h2 {
+    opacity: 0;
+    transition: opacity .7s;
 }
 
 #bigp_h1 {
@@ -116,6 +116,7 @@ h1 {
 
 
 /* Contents of the biggests pocket hover effect */
+
 #bigp_h3 {
     position: absolute;
     left: 123px;
@@ -126,7 +127,7 @@ h1 {
     position: absolute;
     left: 100px;
     top: 47px;
-  }
+}
 
 #bigp_h5 {
     position: absolute;
@@ -134,123 +135,123 @@ h1 {
     top: 16px;
 }
 
-
-
-#tp_h1{
-  position: absolute;
-  top:46px;
-  left:16px;
+#tp_h1 {
+    position: absolute;
+    top: 46px;
+    left: 16px;
 }
 
-#tp_h2{
-  position: absolute;
-  top:19px;
-  left:125px;
+#tp_h2 {
+    position: absolute;
+    top: 19px;
+    left: 125px;
 }
 
-#tp_h3{
-  position: absolute;
-  top:103px;
-  left:249px;
+#tp_h3 {
+    position: absolute;
+    top: 103px;
+    left: 249px;
 }
 
-#tp_h4{
-  position: absolute;
-  top:43px;
-  left:150px;
+#tp_h4 {
+    position: absolute;
+    top: 43px;
+    left: 150px;
 }
 
-#tp_h5{
-  position: absolute;
-  top:171px;
-  left:187px;
+#tp_h5 {
+    position: absolute;
+    top: 171px;
+    left: 187px;
 }
 
-#tp_h6{
-  position: absolute;
-  top:154px;
-  left:78px;
+#tp_h6 {
+    position: absolute;
+    top: 154px;
+    left: 78px;
 }
 
-
-#bp_h1{
-  position: absolute;
-  top:35px;
-  left:17px;
+#bp_h1 {
+    position: absolute;
+    top: 35px;
+    left: 17px;
 }
 
-#bp_h2{
-  position: absolute;
-  top:47px;
-  left:169px;
+#bp_h2 {
+    position: absolute;
+    top: 47px;
+    left: 169px;
 }
 
-#rp_h1{
-  position: absolute;
-  top:20px;
-  left:132px;
+#rp_h1 {
+    position: absolute;
+    top: 20px;
+    left: 132px;
 }
 
-#lp_h1{
-  position: absolute;
-  top:14px;
-  left:74px;
+#lp_h1 {
+    position: absolute;
+    top: 14px;
+    left: 74px;
 }
 
-#lp_h2{
-  position: absolute;
-  top:52px;
-  left:166px;
+#lp_h2 {
+    position: absolute;
+    top: 52px;
+    left: 166px;
 }
 
-h3{
-  font-family: 'Pangolin', cursive;
-  font-weight:bolder;
-  border-bottom-style: solid;
-  border-color: #FFDD52;
+h3 {
+    font-family: 'Pangolin', cursive;
+    font-weight: bolder;
+    border-bottom-style: solid;
+    border-color: #FFDD52;
 }
 
-h4{
-  font-weight:bold;
-  padding-top:5px;
-  padding-bottom:5px;
-  font-size: 10pt;
+h4 {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 10pt;
 }
 
-p{
-  font-size: 10pt;
+p {
+    font-size: 10pt;
 }
 
-#bigp_d1, #bigp_d2, #bigp_d3, #bigp_d4, #bigp_d5, #tp_d1, #tp_d2, #tp_d3, #tp_d4, #tp_d5, #tp_d6, #bp_d1, #bp_d2, #rp_d1, #lp_d1, #lp_d2{
-  width:300px;
-  height:130px;
-  padding:10px;
-  color:black;
-  border-style: solid;
-  border-color: #FFDD52;
-  background-color: white;
-  position:absolute;
-  top:300px;
-  left:600px;
-  display:none;
+/* CSS for the block of text about each item */
+
+#bigp_d1, #bigp_d2, #bigp_d3, #bigp_d4, #bigp_d5, #tp_d1, #tp_d2, #tp_d3, #tp_d4, #tp_d5, #tp_d6, #bp_d1, #bp_d2, #rp_d1, #lp_d1, #lp_d2 {
+    width: 300px;
+    height: 130px;
+    padding: 10px;
+    color: black;
+    border-style: solid;
+    border-color: #FFDD52;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    display: none;
 }
 
-footer{
+/* Footer at the bottom */
+footer {
     text-align: center;
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
 
-a{
+a {
     text-decoration: none;
-    color:#FFDD52;
+    color: #FFDD52;
     background-color: inherit;
     font-size: 12px;
     font-weight: bold;
 }
 
-footer p{
+footer p {
     display: inline-block;
     padding: 0px 25px 0px 25px;
     position: relative;
-    top:750px;
+    top: 750px;
 }
