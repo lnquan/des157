@@ -34,7 +34,19 @@ h1 {
     left: 0;
 }
 
+<<<<<<< HEAD
 
+=======
+#bigPocket, #bottomPocket, #topPocket, #rightPocket, #leftPocket {
+    position: relative;
+    top: 150px;
+    left: 800px;
+    border: solid;
+    border-color: black;
+    padding: 10px;
+    display: none;
+}
+>>>>>>> origin/gh-pages
 
 #bigH {
     position: absolute;;
@@ -87,9 +99,15 @@ h1 {
 }
 
 #bigp_h, #topp_h, #botp_h, #rp_h, #lp_h{
+<<<<<<< HEAD
     position: absolute;
     top: 50px;
     left: 600px;
+=======
+    position: relative;
+    top: 150px;
+    left: 800px;
+>>>>>>> origin/gh-pages
     display:none;
 }
 
@@ -99,13 +117,13 @@ h1 {
 }
 
 #bigp_h1 {
-    position: absolute;
+    position: relative;
     left: 176px;
     top: 165px;
 }
 
 #bigp_h2 {
-    position: absolute;
+    position: relative;
     left: 137px;
     top: 132px;
 }
@@ -113,19 +131,23 @@ h1 {
 
 /* Contents of the biggests pocket hover effect */
 #bigp_h3 {
-    position: absolute;
+    position: relative;
     left: 123px;
     top: 63px;
 }
 
 #bigp_h4 {
+<<<<<<< HEAD
     position: absolute;
+=======
+    position: relative;
+>>>>>>> origin/gh-pages
     left: 100px;
     top: 47px;
   }
 
 #bigp_h5 {
-    position: absolute;;
+    position: relative;;
     left: 58px;
     top: 16px;
 }
@@ -133,13 +155,21 @@ h1 {
 
 
 #tp_h1{
+<<<<<<< HEAD
   position: absolute;
+=======
+  position:relative;
+>>>>>>> origin/gh-pages
   top:46px;
   left:16px;
 }
 
 #tp_h2{
+<<<<<<< HEAD
   position: absolute;
+=======
+  position:relative;
+>>>>>>> origin/gh-pages
   top:19px;
   left:125px;
 }
