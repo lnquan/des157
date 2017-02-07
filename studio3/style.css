@@ -34,7 +34,7 @@ h1 {
 }
 
 #bigPocket, #bottomPocket, #topPocket, #rightPocket, #leftPocket {
-    position: absolute;
+    position: relative;
     top: 150px;
     left: 800px;
     border: solid;
@@ -84,14 +84,14 @@ h1 {
 }
 
 #bigp_h, #topp_h, #botp_h, #rp_h, #lp_h{
-    position: absolute;
+    position: relative;
     top: 150px;
     left: 800px;
     display:none;
 }
 
 #bigp_h1 {
-    position: absolute;
+    position: relative;
     left: 176px;
     top: 165px;
     opacity: 0;
@@ -99,7 +99,7 @@ h1 {
 }
 
 #bigp_h2 {
-    position: absolute;
+    position: relative;
     left: 137px;
     top: 132px;
     opacity:0;
@@ -108,21 +108,21 @@ h1 {
 
 /* Contents of the biggests pocket hover effect */
 #bigp_h3 {
-    position: absolute;
+    position: relative;
     left: 123px;
     top: 63px;
     opacity:0;
 }
 
 #bigp_h4 {
-    position: absolute;;
+    position: relative;
     left: 100px;
     top: 47px;
     opacity:0;
   }
 
 #bigp_h5 {
-    position: absolute;;
+    position: relative;;
     left: 58px;
     top: 16px;
     opacity:0;
@@ -131,14 +131,14 @@ h1 {
 
 
 #tp_h1{
-  position:absolute;
+  position:relative;
   top:46px;
   left:16px;
   opacity: 0;
 }
 
 #tp_h2{
-  position:absolute;
+  position:relative;
   top:19px;
   left:125px;
   opacity: 0;

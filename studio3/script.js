@@ -8,24 +8,26 @@ document.addEventListener("DOMContentLoaded", function(event) {
             var bigPocket = document.getElementById("bigPocket");
             // var bigp_h = document.getElementById("bigp_h");
 
+            function hide(){
+              if (document.getElementById('rightPocket').style.display = "block") {
+                  rp_h.style.display = "none";
+                }
+                  if (document.getElementById('leftPocket').style.display = "block") {
+                      lp_h.style.display = "none";
+                    }
+                    if (document.getElementById('bottomPocket').style.display = "block") {
+                        botp_h.style.display = "none";
+                    }
 
+                      if (document.getElementById('topPocket').style.display = "block") {
+                          topp_h.style.display = "none";
+                      }
+            }
 
             //when you click on the big bag, the contents open
             bigH.addEventListener('click', function() {
-                        if (document.getElementById('rightPocket').style.display = "block") {
-                            rp_h.style.display = "none";
-                          }
-                            if (document.getElementById('leftPocket').style.display = "block") {
-                                lp_h.style.display = "none";
-                              }
-                              if (document.getElementById('bottomPocket').style.display = "block") {
-                                  botp_h.style.display = "none";
-                              }
 
-                                if (document.getElementById('topPocket').style.display = "block") {
-                                    topp_h.style.display = "none";
-                                }
-
+                    hide();
                                 bigPocket.style.display = "block";
                                 if (document.getElementById('bigPocket').style.display = "block") {
                                     bigp_h.style.display = "block";
@@ -76,18 +78,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
                         //when you click on the top pocket, the contents open
                         topH.addEventListener('click', function() {
-                                    if (document.getElementById('rightPocket').style.display = "block") {
-                                        rp_h.style.display = "none";
-                                      }
-                                        if (document.getElementById('leftPocket').style.display = "block") {
-                                            lp_h.style.display = "none";
-                                          }
-                                            if (document.getElementById('bigPocket').style.display = "block") {
-                                                bigp_h.style.display = "none";
-                                            }
-                                            if (document.getElementById('bottomPocket').style.display = "block") {
-                                                botp_h.style.display = "none";
-                                            }
+
+                                    hide();
                                             topPocket.style.display = "block";
                                             if (document.getElementById('topPocket').style.display = "block") {
                                                 topp_h.style.display = "block";
@@ -142,20 +134,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
                                     //when you click on the bottom pocket, the contents open
                                     bottomH.addEventListener('click', function() {
-                                                if (document.getElementById('rightPocket').style.display = "block") {
-                                                    rp_h.style.display = "none";
-                                                  }
-                                                    if (document.getElementById('leftPocket').style.display = "block") {
-                                                        lp_h.style.display = "none";
-                                                    }
-                                                    if (document.getElementById('topPocket').style.display = "block") {
-                                                        topp_h.style.display = "none";
-                                                    }
-                                                    bigPocket.style.display = "none";
-                                                    if (document.getElementById('bigPocket').style.display = "block") {
-                                                        bigp_h.style.display = "none";
-                                                    }
-
+                                              hide();
                                                     bottomPocket.style.display = "block";
                                                     if (document.getElementById('topPocket').style.display = "block") {
                                                         botp_h.style.display = "block";
@@ -214,18 +193,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
                                                 //when you click on the left pocket, the contents open
                                                 leftH.addEventListener('click', function() {
-                                                        if (document.getElementById('leftPocket').style.display = "block") {
-                                                            lp_h.style.display = "none";}
-                                                            if (document.getElementById('topPocket').style.display = "block") {
-                                                                topp_h.style.display = "none";
-                                                            }
-                                                            if (document.getElementById('bottomPocket').style.display = "block") {
-                                                                botp_h.style.display = "none";
-                                                            }
-                                                            bigPocket.style.display = "none";
-                                                            if (document.getElementById('bigPocket').style.display = "block") {
-                                                                bigp_h.style.display = "none";
-                                                            }
+                                                        hide();
 
                                                             leftPocket.style.display = "block";
                                                             if (document.getElementById('leftPocket').style.display = "block") {
