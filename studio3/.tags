@@ -1,31 +1,45 @@
-hide	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/script.js	/^    function hide() {$/;"	function	line:11
-*	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^* {$/;"	function	line:8
-body	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^body {$/;"	function	line:13
-h1	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^h1 {$/;"	function	line:19
-#main	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#main{$/;"	function	line:26
-#backpack	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#backpack {$/;"	function	line:32
-#bigH	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigH {$/;"	function	line:39
-#topH	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#topH {$/;"	function	line:46
-#bottomH	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bottomH {$/;"	function	line:53
-#rightH	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#rightH {$/;"	function	line:60
-#leftH	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#leftH {$/;"	function	line:67
-#bigH:hover, #topH:hover, #bottomH:hover, #leftH:hover, #rightH:hover	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigH:hover, #topH:hover, #bottomH:hover, #leftH:hover, #rightH:hover {$/;"	function	line:74
-#bigPocket, #topPocket, #bottomPocket, #rightPocket, #leftPocket	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigPocket, #topPocket, #bottomPocket, #rightPocket, #leftPocket{$/;"	function	line:79
-#bigp_h, #topp_h, #botp_h, #rp_h, #lp_h	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigp_h, #topp_h, #botp_h, #rp_h, #lp_h{$/;"	function	line:89
-#bigp_h1, #bigp_h2, #bigp_h3, #bigp_h4, #bigp_h5, #tp_h1, #tp_h2, #tp_h3, #tp_h4, #tp_h5, #tp_h6, #bp_h1, #bp_h2, #rp_h1, #lp_h1, #lp_h2	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigp_h1, #bigp_h2, #bigp_h3, #bigp_h4, #bigp_h5, #tp_h1, #tp_h2, #tp_h3, #tp_h4, #tp_h5, #tp_h6, #bp_h1, #bp_h2, #rp_h1, #lp_h1, #lp_h2{$/;"	function	line:96
-#bigp_h1	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigp_h1 {$/;"	function	line:101
-#bigp_h2	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigp_h2 {$/;"	function	line:107
-#bigp_h3	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigp_h3 {$/;"	function	line:115
-#bigp_h4	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigp_h4 {$/;"	function	line:121
-#bigp_h5	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigp_h5 {$/;"	function	line:127
-#tp_h1	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#tp_h1{$/;"	function	line:135
-#tp_h2	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#tp_h2{$/;"	function	line:141
-#tp_h3	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#tp_h3{$/;"	function	line:147
-#tp_h4	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#tp_h4{$/;"	function	line:153
-#tp_h5	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#tp_h5{$/;"	function	line:159
-#tp_h6	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#tp_h6{$/;"	function	line:165
-#bp_h1	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bp_h1{$/;"	function	line:172
-#bp_h2	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bp_h2{$/;"	function	line:178
-#rp_h1	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#rp_h1{$/;"	function	line:184
-#lp_h1	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#lp_h1{$/;"	function	line:190
-#lp_h2	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#lp_h2{$/;"	function	line:196
+hide	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/script.js	/^            function hide(){$/;"	function	line:11
+hide	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/script.js	/^            function hide(){$/;"	function	line:11
+html	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^<html>$/;"	function	line:2
+head	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^<head>$/;"	function	line:4
+meta	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^    <meta charset="UTF-8">$/;"	function	line:5
+title	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^    <title>Studio 3<\/title>$/;"	function	line:6
+link	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^    <link href="style.css" rel="stylesheet" \/>$/;"	function	line:7
+link	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^    <link href="https:\/\/fonts.googleapis.com\/css?family=Raleway" rel="stylesheet">$/;"	function	line:8
+script	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^    <script src='script.js' type="text\/javascript"><\/script>$/;"	function	line:9
+body	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^<body>$/;"	function	line:12
+div	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^    <div id="main">$/;"	function	line:14
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^        <img src="backpack.jpg" alt="sketch of backpack" width="600" height="600" id="backpack">$/;"	function	line:15
+div	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^        <div id="bagSections">$/;"	function	line:16
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="bigpocket.jpg" alt="sketch of items in big pocket" width="300" height="200" id="bigPocket">$/;"	function	line:17
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="insidefrontpocket.jpg" alt="sketch of items in front pocket" width="300" height="200" id="bottomPocket">$/;"	function	line:18
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="insidesmallpocket.jpg" alt="sketch of items in small pocket" width="300" height="200" id="topPocket">$/;"	function	line:19
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="sidepocket1.jpg" alt="sketch of items in right pocket" width="300" height="200" id="rightPocket">$/;"	function	line:20
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="sidepocket2.jpg" alt="sketch of items in right pocket" width="300" height="200" id="leftPocket">$/;"	function	line:21
+div	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^        <div id="backpackHover">$/;"	function	line:24
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="big_h.png" alt="colored for hover" width="417" height="368" id="bigH">$/;"	function	line:25
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="top_h.png" alt="colored for hover" width="282" height="210" id="topH">$/;"	function	line:26
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="bottom_h.png" alt="colored for hover" width="382" height="190" id="bottomH">$/;"	function	line:27
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="left_h.png" alt="colored for hover" width="96" height="159" id="leftH">$/;"	function	line:28
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="right_h.png" alt="colored for hover" width="79" height="300" id="rightH">$/;"	function	line:29
+div	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^        <div id="bigp_h">$/;"	function	line:32
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="bigpocket_h5.png" alt="hover colored" width="113" height="149" id="bigp_h5">$/;"	function	line:33
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="bigpocket_h4.png" alt="hover colored" width="103" height="139" id="bigp_h4">$/;"	function	line:34
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="bigpocket_h3.png" alt="hover colored" width="137" height="137" id="bigp_h3">$/;"	function	line:35
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="bigpocket_h2.png" alt="hover colored" width="39" height="79" id="bigp_h2">$/;"	function	line:36
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="bigpocket_h1.png" alt="hover colored" width="95" height="42" id="bigp_h1">$/;"	function	line:37
+div	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^        <div id="topp_h">$/;"	function	line:40
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="tp_h1.png" alt="hover colored" width="142" height="133" id="tp_h1">$/;"	function	line:41
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="tp_h2.png" alt="hover colored" width="56" height="62" id="tp_h2">$/;"	function	line:42
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="tp_h3.png" alt="hover colored" width="62" height="70" id="tp_h3">$/;"	function	line:43
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="tp_h4.png" alt="hover colored" width="113" height="132" id="tp_h4">$/;"	function	line:44
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="tp_h5.png" alt="hover colored" width="54" height="30" id="tp_h5">$/;"	function	line:45
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="tp_h6.png" alt="hover colored" width="67" height="59" id="tp_h6">$/;"	function	line:46
+div	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^        <div id="botp_h">$/;"	function	line:49
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="bp_h1.png" alt="hover colored" width="132" height="146" id="bp_h1">$/;"	function	line:50
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="bp_h2.png" alt="hover colored" width="141" height="144" id="bp_h2">$/;"	function	line:51
+div	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^        <div id="rp_h">$/;"	function	line:54
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="rp_h1.png" alt="hover colored" width="63" height="187" id="rp_h1">$/;"	function	line:55
+div	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^        <div id="lp_h">$/;"	function	line:58
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="lp_h1.png" alt="hover colored" width="102" height="196" id="lp_h1">$/;"	function	line:59
+img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^            <img src="lp_h2.png" alt="hover colored" width="90" height="158" id="lp_h2">$/;"	function	line:60

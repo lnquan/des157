@@ -11,7 +11,7 @@
 }
 
 body {
-    width: 900px;
+    width: 1000px;
     margin: 50px auto;
     font-family: 'Raleway', sans-serif;
 }
@@ -23,20 +23,16 @@ h1 {
     padding-bottom: 30px;
 }
 
-#main{
-  position: relative;
-  top:0;
-  left:0;
+#main {
+    width: 900px;
+    margin: auto;
 }
 
 #backpack {
-    position: absolute;
+    position: relative;
     left: 0;
 }
 
-<<<<<<< HEAD
-
-=======
 #bigPocket, #bottomPocket, #topPocket, #rightPocket, #leftPocket {
     position: relative;
     top: 150px;
@@ -46,86 +42,67 @@ h1 {
     padding: 10px;
     display: none;
 }
->>>>>>> origin/gh-pages
 
 #bigH {
-    position: absolute;;
-    top: 168px;
+    position: relative;
+    top: -436px;
     left: 80px;
     opacity: 0;
 }
 
 #topH {
-    position: absolute;;
-    top: 34px;
-    left: 143px;
+    position: relative;
+    top: -729px;
+    left: -278px;
     opacity: 0;
 }
 
 #bottomH {
-    position: absolute;;
-    top: 354px;
+    position: relative;
+    top: -732px;
     left: 93px;
     opacity: 0;
 }
 
 #rightH {
-    position: absolute;;
-    top: 180px;
-    left: 481px;
+    position: relative;
+    top: -796px;
+    left: -4px;
     opacity: 0;
 }
 
 #leftH {
-    position: absolute;;
-    top: 364px;
-    left:9px;
+    position: relative;
+    top: -753px;
+    left: -377px;
     opacity: 0;
 }
 
 #bigH:hover, #topH:hover, #bottomH:hover, #leftH:hover, #rightH:hover {
     opacity: 1;
-    transition: opacity .7s;
-}
-
-#bigPocket, #topPocket, #bottomPocket, #rightPocket, #leftPocket{
-    position:absolute;
-    top: 50px;
-    left:600px;
-    border: solid;
-    border-color: black;
-    padding: 10px;
-    display: none;
+    transition: opacity 1s;
 }
 
 #bigp_h, #topp_h, #botp_h, #rp_h, #lp_h{
-<<<<<<< HEAD
-    position: absolute;
-    top: 50px;
-    left: 600px;
-=======
     position: relative;
     top: 150px;
     left: 800px;
->>>>>>> origin/gh-pages
     display:none;
-}
-
-#bigp_h1, #bigp_h2, #bigp_h3, #bigp_h4, #bigp_h5, #tp_h1, #tp_h2, #tp_h3, #tp_h4, #tp_h5, #tp_h6, #bp_h1, #bp_h2, #rp_h1, #lp_h1, #lp_h2{
-  opacity: 0;
-  transition: opacity .7s;
 }
 
 #bigp_h1 {
     position: relative;
     left: 176px;
     top: 165px;
+    opacity: 0;
+    /*display:none;*/
 }
 
 #bigp_h2 {
     position: relative;
     left: 137px;
     top: 132px;
+    opacity:0;
 }
 
 
@@ -134,97 +111,99 @@ h1 {
     position: relative;
     left: 123px;
     top: 63px;
+    opacity:0;
 }
 
 #bigp_h4 {
-<<<<<<< HEAD
-    position: absolute;
-=======
     position: relative;
->>>>>>> origin/gh-pages
     left: 100px;
     top: 47px;
+    opacity:0;
   }
 
 #bigp_h5 {
     position: relative;;
     left: 58px;
     top: 16px;
+    opacity:0;
 }
 
 
 
 #tp_h1{
-<<<<<<< HEAD
-  position: absolute;
-=======
   position:relative;
->>>>>>> origin/gh-pages
   top:46px;
   left:16px;
+  opacity: 0;
 }
 
 #tp_h2{
-<<<<<<< HEAD
-  position: absolute;
-=======
   position:relative;
->>>>>>> origin/gh-pages
   top:19px;
   left:125px;
+  opacity: 0;
 }
 
 #tp_h3{
-  position: absolute;
+  position:absolute;
   top:103px;
   left:249px;
+  opacity: 0;
 }
 
 #tp_h4{
-  position: absolute;
+  position:absolute;
   top:43px;
   left:150px;
+  opacity: 0;
 }
 
 #tp_h5{
-  position: absolute;
+  position:absolute;
   top:171px;
   left:187px;
+  opacity: 0;
 }
 
 #tp_h6{
-  position: absolute;
+  position:absolute;
   top:154px;
   left:78px;
+  opacity: 0;
 }
 
 
 #bp_h1{
-  position: absolute;
+  position:absolute;
   top:35px;
   left:17px;
+  opacity: 0;
 }
 
 #bp_h2{
-  position: absolute;
+  position:absolute;
   top:47px;
   left:169px;
+  opacity: 0;
 }
 
 #rp_h1{
-  position: absolute;
+  position:absolute;
   top:20px;
   left:132px;
+  opacity: 0;
 }
 
 #lp_h1{
-  position: absolute;
+  position:absolute;
   top:14px;
   left:74px;
+  opacity: 0;
 }
 
 #lp_h2{
-  position: absolute;
+  position:absolute;
   top:52px;
   left:166px;
+  opacity: 0;
 }
