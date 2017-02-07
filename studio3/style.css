@@ -3,8 +3,6 @@
 /* CSS Document */
 
 
-/* start all css with a reset */
-
 * {
     margin: 0px;
     padding: 0px
@@ -12,21 +10,26 @@
 
 body {
     width: 900px;
-    margin: 50px auto;
+    margin:auto;
     font-family: 'Raleway', sans-serif;
-}
-
-h1 {
-    font-size: 30pt;
-    text-align: center;
-    font-weight: bold;
-    padding-bottom: 30px;
 }
 
 #main{
   position: relative;
-  top:0;
+  top:20px;
   left:0;
+}
+
+h1 {
+    font-size: 40pt;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Pangolin', cursive;
+    color:#FFDD52;
+    background-color: inherit;
+    position: absolute;
+    top:590px;
+    right:200px;
 }
 
 #backpack {
@@ -37,35 +40,35 @@ h1 {
 
 
 #bigH {
-    position: absolute;;
+    position: absolute;
     top: 168px;
     left: 80px;
     opacity: 0;
 }
 
 #topH {
-    position: absolute;;
+    position: absolute;
     top: 34px;
     left: 143px;
     opacity: 0;
 }
 
 #bottomH {
-    position: absolute;;
+    position: absolute;
     top: 354px;
     left: 93px;
     opacity: 0;
 }
 
 #rightH {
-    position: absolute;;
+    position: absolute;
     top: 180px;
     left: 481px;
     opacity: 0;
 }
 
 #leftH {
-    position: absolute;;
+    position: absolute;
     top: 364px;
     left:9px;
     opacity: 0;
@@ -85,6 +88,7 @@ h1 {
     padding: 10px;
     display: none;
 }
+
 
 #bigp_h, #topp_h, #botp_h, #rp_h, #lp_h{
     position: absolute;
@@ -125,7 +129,7 @@ h1 {
   }
 
 #bigp_h5 {
-    position: absolute;;
+    position: absolute;
     left: 58px;
     top: 16px;
 }
@@ -197,4 +201,56 @@ h1 {
   position: absolute;
   top:52px;
   left:166px;
+}
+
+h3{
+  font-family: 'Pangolin', cursive;
+  font-weight:bolder;
+  border-bottom-style: solid;
+  border-color: #FFDD52;
+}
+
+h4{
+  font-weight:bold;
+  padding-top:5px;
+  padding-bottom:5px;
+  font-size: 10pt;
+}
+
+p{
+  font-size: 10pt;
+}
+
+#bigp_d1, #bigp_d2, #bigp_d3, #bigp_d4, #bigp_d5, #tp_d1, #tp_d2, #tp_d3, #tp_d4, #tp_d5, #tp_d6, #bp_d1, #bp_d2, #rp_d1, #lp_d1, #lp_d2{
+  width:300px;
+  height:130px;
+  padding:10px;
+  color:black;
+  border-style: solid;
+  border-color: #FFDD52;
+  background-color: white;
+  position:absolute;
+  top:300px;
+  left:600px;
+  display:none;
+}
+
+footer{
+    text-align: center;
+    margin-bottom:50px;
+}
+
+a{
+    text-decoration: none;
+    color:#FFDD52;
+    background-color: inherit;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer p{
+    display: inline-block;
+    padding: 0px 25px 0px 25px;
+    position: relative;
+    top:750px;
 }
