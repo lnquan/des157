@@ -17,6 +17,11 @@ body{
     padding:40px 0px 5px 0px;
 }
 
+nav{
+  background-color: white;
+  color:inherit;
+}
+
 h2{
     margin: 0;
     font-size: 20px;
