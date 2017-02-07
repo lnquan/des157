@@ -1,5 +1,43 @@
-hide	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/script.js	/^            function hide(){$/;"	function	line:11
-hide	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/script.js	/^            function hide(){$/;"	function	line:11
+<<<<<<< HEAD
+=======
+>>>>>>> parent of c0a4822... update (making studio 3 centered)
+<<<<<<< HEAD
+=======
+>>>>>>> parent of c0a4822... update (making studio 3 centered)
+<<<<<<< HEAD
+=======
+>>>>>>> parent of c0a4822... update (making studio 3 centered)
+*	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^* {$/;"	function	line:8
+body	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^body {$/;"	function	line:13
+h1	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^h1 {$/;"	function	line:19
+#main	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#main{$/;"	function	line:26
+#backpack	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#backpack {$/;"	function	line:32
+#bigH	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigH {$/;"	function	line:39
+#topH	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#topH {$/;"	function	line:46
+#bottomH	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bottomH {$/;"	function	line:53
+#rightH	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#rightH {$/;"	function	line:60
+#leftH	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#leftH {$/;"	function	line:67
+#bigH:hover, #topH:hover, #bottomH:hover, #leftH:hover, #rightH:hover	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigH:hover, #topH:hover, #bottomH:hover, #leftH:hover, #rightH:hover {$/;"	function	line:74
+#bigPocket, #topPocket, #bottomPocket, #rightPocket, #leftPocket	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigPocket, #topPocket, #bottomPocket, #rightPocket, #leftPocket{$/;"	function	line:79
+#bigp_h, #topp_h, #botp_h, #rp_h, #lp_h	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigp_h, #topp_h, #botp_h, #rp_h, #lp_h{$/;"	function	line:89
+#bigp_h1, #bigp_h2, #bigp_h3, #bigp_h4, #bigp_h5, #tp_h1, #tp_h2, #tp_h3, #tp_h4, #tp_h5, #tp_h6, #bp_h1, #bp_h2, #rp_h1, #lp_h1, #lp_h2	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigp_h1, #bigp_h2, #bigp_h3, #bigp_h4, #bigp_h5, #tp_h1, #tp_h2, #tp_h3, #tp_h4, #tp_h5, #tp_h6, #bp_h1, #bp_h2, #rp_h1, #lp_h1, #lp_h2{$/;"	function	line:96
+#bigp_h1	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigp_h1 {$/;"	function	line:101
+#bigp_h2	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigp_h2 {$/;"	function	line:107
+#bigp_h3	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigp_h3 {$/;"	function	line:115
+#bigp_h4	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigp_h4 {$/;"	function	line:121
+#bigp_h5	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bigp_h5 {$/;"	function	line:127
+#tp_h1	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#tp_h1{$/;"	function	line:135
+#tp_h2	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#tp_h2{$/;"	function	line:141
+#tp_h3	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#tp_h3{$/;"	function	line:147
+#tp_h4	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#tp_h4{$/;"	function	line:153
+#tp_h5	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#tp_h5{$/;"	function	line:159
+#tp_h6	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#tp_h6{$/;"	function	line:165
+#bp_h1	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bp_h1{$/;"	function	line:172
+#bp_h2	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#bp_h2{$/;"	function	line:178
+#rp_h1	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#rp_h1{$/;"	function	line:184
+#lp_h1	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#lp_h1{$/;"	function	line:190
+#lp_h2	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/style.css	/^#lp_h2{$/;"	function	line:196
+hide	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/script.js	/^    function hide() {$/;"	function	line:11
 html	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^<html>$/;"	function	line:2
 head	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^<head>$/;"	function	line:4
 meta	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/studio3/index.html	/^    <meta charset="UTF-8">$/;"	function	line:5
