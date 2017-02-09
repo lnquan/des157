@@ -24,7 +24,7 @@
         }
 
         .trail { /* className for the trail elements */
-    position: absolute;0;
+    position: absolute;
     height: 6px; width: 6px;
     border-radius: 3px;
     background: teal;
@@ -40,21 +40,18 @@
 
       for (var i = 0; i < 10; i++) {
         var trails = document.createElement("div");
-
         trails.className = "trail";
         document.body.appendChild(trails);
-
         dots.push(trails);
-
       }
 
-      var dot = 0;
+      var dotted = 0;
 
       addEventListener("mousemove", function(event) {
-        var dotPath = dots[dot];
+        var dotPath = dots[dotted];
         dotPath.style.left = (event.pageX - 3) + "px";
         dotPath.style.top = (event.pageY - 3) + "px";
-        dot = (dot + 1) % dotPath.length;
+        dotted = (dotted + 1) % dots.length;
       });
     </script>
 </body>
