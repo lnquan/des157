@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>! ADD A DESCRIPTIVE TITLE HERE...DO NOT FORGET TO UPDATE THIS !</title>
+    <title>Mouse Trail</title>
     <style>
         * {
             margin: 0px;
@@ -22,13 +22,39 @@
         h1 {
             margin-bottom: 24px;
         }
+
+        .trail { /* className for the trail elements */
+    position: absolute;0;
+    height: 6px; width: 6px;
+    border-radius: 3px;
+    background: teal;
+  }
     </style>
 </head>
 
 <body>
-    <h1>! ADD THE CHAPTER NUMBER HERE FOLLOWED BY BRIEF TITLE FOR THE EXERCISE !</h1>
-    <h2>open the console to see the results of the script</h2>
+    <h1>Ch 14 - Mouse trail </h1>
+    <h2>dots following mouse</h2>
     <script>
-        // ADD DESCRIPTIVE COMMENTS BEFORE STATEMENTS AND BLOCK OF CODE
+    var dots = [];
+
+      for (var i = 0; i < 10; i++) {
+        var trails = document.createElement("div");
+
+        trails.className = "trail";
+        document.body.appendChild(trails);
+
+        dots.push(trails);
+
+      }
+
+      var dot = 0;
+
+      addEventListener("mousemove", function(event) {
+        var dotPath = dots[dot];
+        dotPath.style.left = (event.pageX - 3) + "px";
+        dotPath.style.top = (event.pageY - 3) + "px";
+        dot = (dot + 1) % dotPath.length;
+      });
     </script>
 </body>

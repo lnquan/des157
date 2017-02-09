@@ -1,0 +1,9 @@
+html	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/bookex/mouse.html	/^<html>$/;"	function	line:3
+head	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/bookex/mouse.html	/^<head>$/;"	function	line:5
+meta	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/bookex/mouse.html	/^    <meta charset="UTF-8">$/;"	function	line:6
+title	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/bookex/mouse.html	/^    <title>Mouse Trail<\/title>$/;"	function	line:7
+style	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/bookex/mouse.html	/^    <style>$/;"	function	line:8
+body	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/bookex/mouse.html	/^<body>$/;"	function	line:35
+h	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/bookex/mouse.html	/^    <h1>Ch 14 - Mouse trail <\/h1>$/;"	function	line:36
+h	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/bookex/mouse.html	/^    <h2>dots following mouse<\/h2>$/;"	function	line:37
+script	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/bookex/mouse.html	/^    <script>$/;"	function	line:38
