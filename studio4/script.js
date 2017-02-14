@@ -200,7 +200,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // ==================================================================
-    //Section for JS to open close parts of the timeline
+    //Section for JS to open close part of the time
 
     function close() {
         sect1p.style.display = "none";
