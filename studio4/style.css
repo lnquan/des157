@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#bord {
+    width: 100%;
+    border-top: solid;
+    border-color: gray;
+    position: absolute;
+    top: 550px;
+    border-width: 6pt;
+}
+
+#button, #buttonActive {
+    position: absolute;
+    top: 530px;
+}
+
+#s1a, #s2a, #s3a, #s4a {
+    display: none;
+}
+
+#s1a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#s2a {
+    position: absolute;
+    top: 0px;
+    left: 248px;
+}
+
+#s3a {
+    position: absolute;
+    top: 0px;
+    left: 494px;
+}
+
+#s4a {
+    position: absolute;
+    top: 0px;
+    left: 742px;
+}
+
+#button img, #buttonActive img {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.tip {
+    opacity: 0;
+    color: pink;
+    background-color: inherit;
+}
+
+#single {
+    position: absolute;
+    right: 100px;
+}
+
+#buttonTip {
+    position: absolute;
+    top: 450px;
+    left: 300px;
+}
+
+#opened {
+    position: absolute;
+    top: 190px;
+    left: 470px;
+}
+
+#count {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+#haha {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
+
+#bye {
+    position: absolute;
+    top: 640px;
+    left: 300px;
+}
+
+#diy {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    width: 170px;
+}
+
+#valentines {
+    font-family: 'Coming Soon', cursive;
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    padding-top: 55px;
+    font-size: 45pt;
+    color: pink;
+    background-color: inherit;
+}
+
+#sect1, #sect2, #sect3, #sect4 {
+    width: 350px;
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    display: none;
+}
+
+#sect1 img {
+    position: absolute;
+    top: 0;
+    left: 450px;
+}
+
+#sect2 img {
+    position: absolute;
+    top: -20px;
+    left: 370px;
+}
+
+#sect3 img, #sect4 img {
+    position: absolute;
+    top: 0;
+    left: 370px;
+}
+
+#sect1p, #sect2p, #sect3p, #sect4p {
+    display: none;
+}
+
+h2 {
+    color: white;
+    background: lightpink;
+    padding: 5px 5px 5px 10px;
+    margin-bottom: 10px;
+}
+
+h2:hover {
+    color: pink;
+    background-color: gray;
+}
+
+p {
+    font-size: 10pt;
+    width: 320px;
+    margin: auto;
+    color: gray;
+    background: white;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Coming Soon', cursive;
+}
+
+a {
+    color: pink;
+    background-color: inherit;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 25px 25px 25px;
+    position: relative;
+    top: 550px;
+}
