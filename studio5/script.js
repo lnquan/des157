@@ -3,6 +3,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     console.log("DOM fully loaded and parsed");
 
-    // all other js here
+    var map = new GMaps({
+    div: '#map',
+    lat: -12.043333,
+    lng: -77.028333
+});
 
 });
