@@ -30,6 +30,7 @@ footer{
   position:absolute;;
   bottom:0px;
   z-index: 2;
+  display: inline;
 }
 
 a{
@@ -38,7 +39,7 @@ a{
 }
 
 li{
-  display: inline;
+
   color:gray;
   padding:5px 35px 5px 35px;
   margin:0px -10px 0px -10px;
