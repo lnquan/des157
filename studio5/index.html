@@ -5,18 +5,26 @@
     <meta charset="UTF-8">
     <title>JS Library</title>
     <link href="style.css" rel="stylesheet" />
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.24/gmaps.min.js' type="text/javscript"></script>
-    <script src='script.js' type="text/javascript"></script>
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+     <link rel="stylesheet" href="Control.OSMGeocoder.css">
+     <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-geocoder-mapzen/1.7.1/leaflet-geocoder-mapzen.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-geocoder-mapzen/1.7.1/leaflet-geocoder-mapzen.js"></script>
+     <script src='script.js' type="text/javascript"></script>
+
+
 </head>
 
 <body>
-    <!--add your html here-->
-<div id="map"></div>
+
+ <div id="map"></div>
     <!--add links to validators-->
+
 
     <footer>
         <nav>
             <ul>
+              <li>  <a href="../index.html">portal</a></li>
                 <li>  <a href="https://validator.w3.org/check?uri=referer" target="_blank">valid html</a></li>
                 <li><a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank">valid css</a></li>
             </ul>
