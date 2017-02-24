@@ -22,7 +22,7 @@ header{
 
 }
 
-div{
+#topic{
     width:400px;
     height:250px;
     margin: auto;
@@ -30,6 +30,11 @@ div{
     border-style: solid;
     border-color:white;
 
+}
+
+#need{
+  width:550px;
+  margin:auto;
 }
 
 a{
