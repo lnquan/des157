@@ -64,10 +64,11 @@ h2{
 
 footer{
     text-align: center;
+    padding-top:30px;
 }
 
 footer p{
     display: inline-block;
-    padding: 30px 25px 0px 25px;
+    padding: 0px 25px 0px 25px;
     font-size: 12px;
 }
