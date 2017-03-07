@@ -59,8 +59,7 @@ h2{
 footer{
     text-align: center;
     padding-top:30px;
-    position:relative;
-    bottom:10px;
+    padding-bottom:10px;
 }
 
 footer p{
