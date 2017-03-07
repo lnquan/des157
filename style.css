@@ -31,18 +31,12 @@ header{
 div{
     float:left;
     width:200px;
-    height:250px;
     margin: 0px 25px 0px 25px;
     padding: 0px 5px 0px 5px;
     border-style: solid;
     border-color:white;
     background-color:rgba(255,255,255,0.8);
 
-}
-
-#jan12 img{
-    width:380px;
-    height:208px;
 }
 
 a{
@@ -65,6 +59,8 @@ h2{
 footer{
     text-align: center;
     padding-top:30px;
+    position:relative;
+    bottom:10px;
 }
 
 footer p{
