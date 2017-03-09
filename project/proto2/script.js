@@ -1,6 +1,14 @@
 // JavaScript Document
 
 document.addEventListener("DOMContentLoaded", function() {
+
+  help.addEventListener("click", function(){
+    confirm("Do you need help?")
+  })
+
+  locate.addEventListener("click", function(){
+    confirm("Share your location to your friends?")
+  })
     console.log("DOM fully loaded and parsed");
 
     var latitude = location.coords.latitude;

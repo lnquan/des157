@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-geocoder-mapzen/1.7.1/leaflet-geocoder-mapzen.css">
     <link href="style.css" rel="stylesheet" />
 
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
     <!-- Firebase -->
     <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
 
@@ -23,8 +26,22 @@
 </head>
 
 <body>
-<h1>Interactive Prototype 1</h1>
-<p>For my interactive prototype 1, I was trying to get my map to work with GeoFire, but it wouldn't work.</p>
-</body>
 
+<section id="app">
+<img src="map.jpg" alt="image of map" width=375 height=667>
+
+<a href="#"><img src="help.svg" alt="image of alarm" width=70 id="help"></a>
+
+<form action="#" id="loct">
+  <input type="text" name="destination" placeholder="Where are you going?">
+  <input type="submit" value="Go" id="go">
+</form>
+
+<a href="#"><img src="locate.svg" alt="locate button" width=50 id="locate"></a>
+
+<nav id="menu">
+<a href="#"><img src="menubutton.svg" alt="menu button" width=30 height=30 id="button"></a>
+</nav>
+
+</section>
 </html>
