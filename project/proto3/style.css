@@ -2,17 +2,12 @@
 
 /* CSS Document */
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/gh-pages
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
 * {
-<<<<<<< HEAD
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -220,92 +215,4 @@ top:80px;
 	display: block;
 	text-align: center;
 	margin-top:40px;
-=======
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-body {
-  width: 375px;
-  height: 667px;
-  margin: auto;
-  font-family: 'Roboto', sans-serif;
-  color: #aa61f7;
-  border-style: solid;
-  border-color: #cccccc;
-  border-width: medium;
-}
-
-#app {
-  width: 375px;
-  height: 667px;
-  position: relative;
-  top: 0px;
-}
-
-#map {
-  height: 100%;
-}
-
-#help {
-  position: absolute;
-  bottom: 5px;
-  right: 20px
-}
-
-#loct {
-  position: absolute;
-  top: 80px;
-  left: 25px;
-}
-
-input {
-  color: #aa61f7;
-}
-
-input[type=text] {
-  background-color: rgba(255, 255, 255, 0.5);
-  height: 40px;
-  width: 250px;
-  padding-left: 10px;
-}
-
-input[type=text]:focus {
-  border-style: solid;
-  border-color: #aa61f7;
-}
-
-input[type=submit] {
-  background-color: rgba(255, 255, 255, 0.5);
-  height: 40px;
-  width: 40px;
-}
-
-#go img {
-  height: 40px;
-  width: auto;
-}
-
-#locate {
-  position: absolute;
-  bottom: 10px;
-  left: 20px;
-}
-
-#menu {
-  width: 100%;
-  height: 50px;
-  background-color: white;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#button {
-  padding: 10px;
->>>>>>> origin/gh-pages
 }
