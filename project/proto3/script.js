@@ -3,22 +3,23 @@
 document.addEventListener("DOMContentLoaded", function() {
 
     console.log("DOM fully loaded and parsed");
-
-
-
   help.addEventListener("click", function(){
-    confirm("Do you need help?")
+    var help = confirm("Do you need help?");
+    if (help == true){
+      return true;
+    }
+    else{
+      return false;
+    }
   })
 
   locate.addEventListener("click", function(){
-    confirm("Share your location to your friends?")
-
-
-
+    confirm("Share your location to your friends?");
+})
     // if (confirm("Share your location to your friends?") == return true){
     //
     // }
-  })
+
 //     var latitude = location.coords.latitude;
 //     var longitude = location.coords.longitude;
 //

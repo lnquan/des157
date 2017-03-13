@@ -1,0 +1,72 @@
+*	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^* {$/;"	function	line:10
+body	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^body{$/;"	function	line:19
+#app	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#app{$/;"	function	line:30
+#help	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#help{$/;"	function	line:37
+#loct	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#loct{$/;"	function	line:43
+input	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^input{$/;"	function	line:49
+input[type=text]	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^input[type=text]{$/;"	function	line:53
+input[type=text]:focus	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^input[type=text]:focus{$/;"	function	line:60
+input[type=submit]	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^input[type=submit]{$/;"	function	line:65
+#go img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#go img{$/;"	function	line:71
+#locate	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#locate{$/;"	function	line:76
+#menu	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#menu{$/;"	function	line:82
+#button	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#button{$/;"	function	line:91
+.buttons	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^.buttons{$/;"	function	line:95
+#helpChoice	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#helpChoice{$/;"	function	line:106
+#authorities	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#authorities{$/;"	function	line:116
+#companion	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#companion{$/;"	function	line:121
+#cancel	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#cancel{$/;"	function	line:126
+#record	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#record{$/;"	function	line:133
+#nearby	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#nearby{$/;"	function	line:137
+#contactChoice	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#contactChoice{$/;"	function	line:143
+#pathButtons	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#pathButtons{$/;"	function	line:149
+#pathCancel	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#pathCancel{$/;"	function	line:155
+#arrived	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#arrived{$/;"	function	line:159
+#arrived p	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#arrived p{$/;"	function	line:167
+#contacts	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#contacts{$/;"	function	line:171
+#contacts h3	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#contacts h3{$/;"	function	line:178
+#contacts ul	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#contacts ul{$/;"	function	line:183
+#contacts li	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#contacts li{$/;"	function	line:187
+#contacts li:active	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#contacts li:active{$/;"	function	line:198
+#contacts li.active	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#contacts li.active{$/;"	function	line:202
+#contactgo	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#contactgo{$/;"	function	line:206
+#contactcancel	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/style.css	/^#contactcancel{$/;"	function	line:212
+html	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^<html>$/;"	function	line:2
+head	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^<head>$/;"	function	line:4
+meta	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^    <meta charset="UTF-8">$/;"	function	line:5
+title	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^    <title>Interactive Prototype<\/title>$/;"	function	line:6
+link	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^    <link rel="stylesheet" href="https:\/\/unpkg.com\/leaflet@1.0.3\/dist\/leaflet.css" \/>$/;"	function	line:8
+script	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^    <script src="https:\/\/unpkg.com\/leaflet@1.0.3\/dist\/leaflet.js"><\/script>$/;"	function	line:9
+link	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^    <link rel="stylesheet" href="https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/leaflet-geocoder-mapzen\/1.7.1\/leaflet-geocoder-mapzen.css">$/;"	function	line:10
+link	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^    <link href="style.css" rel="stylesheet" \/>$/;"	function	line:11
+link	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^<link href="https:\/\/fonts.googleapis.com\/css?family=Roboto" rel="stylesheet">$/;"	function	line:13
+script	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^    <script src="https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/leaflet-geocoder-mapzen\/1.7.1\/leaflet-geocoder-mapzen.js"><\/script> -->$/;"	function	line:22
+link	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^    <link rel="stylesheet" href="https:\/\/unpkg.com\/leaflet@1.0.3\/dist\/leaflet.css" \/>$/;"	function	line:24
+script	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^<script src="https:\/\/unpkg.com\/leaflet@1.0.3\/dist\/leaflet.js"><\/script>$/;"	function	line:25
+link	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^<link rel="stylesheet" href="https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/leaflet-geocoder-mapzen\/1.7.1\/leaflet-geocoder-mapzen.css">$/;"	function	line:26
+script	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^<script src="https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/leaflet-geocoder-mapzen\/1.7.1\/leaflet-geocoder-mapzen.js"><\/script>$/;"	function	line:27
+script	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^<script src='script.js' type="text\/javascript"><\/script>$/;"	function	line:28
+body	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^<body>$/;"	function	line:31
+section	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^<section id="app">$/;"	function	line:33
+section	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^<section id="contacts">$/;"	function	line:35
+h	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^  <h3>Choose your companions:<\/h3>$/;"	function	line:36
+ul	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^ <ul>$/;"	function	line:37
+li	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^   <li onclick="this.style.background='#d9d9d9'">Aaron Ngai<\/li>$/;"	function	line:38
+li	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^   <li onclick="this.style.background='#d9d9d9'">Isaac Tseng<\/li>$/;"	function	line:39
+li	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^   <li onclick="this.style.background='#d9d9d9'">Isabel Liaw<\/li>$/;"	function	line:40
+li	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^   <li onclick="this.style.background='#d9d9d9'">Linh Quan<\/li>$/;"	function	line:41
+li	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^   <li onclick="this.style.background='#d9d9d9'">Selena Chen<\/li>$/;"	function	line:42
+li	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^   <li onclick="this.style.background='#d9d9d9'">Vivian Luu<\/li>$/;"	function	line:43
+a	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^ <a href="map_path.html" class="buttons" id="contactgo">Go<\/a>$/;"	function	line:45
+a	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^ <a href="index.html" id="contactcancel">Cancel<\/a>$/;"	function	line:46
+a	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^<a href="#"><img src="locate.svg" alt="locate button" width=50 id="locate"><\/a>$/;"	function	line:49
+nav	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^<nav id="menu">$/;"	function	line:51
+a	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^<a href="#"><img src="menubutton.svg" alt="menu button" width=30 height=30 id="button"><\/a>$/;"	function	line:52
+div	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^<div id="menulist">$/;"	function	line:55
+ul	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^<ul>$/;"	function	line:56
+li	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^  <li><a href="#">Profile<\/a><\/li>$/;"	function	line:57
+li	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^  <li><a href="#">Be A Companion<\/a><\/li>$/;"	function	line:58
+li	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^  <li><a href="#">Invite Friends<\/a><\/li>$/;"	function	line:59
+li	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^  <li><a href="#">FAQ<\/a><\/li>$/;"	function	line:60
+li	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^  <li><a href="#">Log Off<\/a><\/li>$/;"	function	line:61
+a	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/proto3/contact.html	/^<a href="#"><img src="help.svg" alt="image of alarm" width=70 id="help"><\/a>$/;"	function	line:65

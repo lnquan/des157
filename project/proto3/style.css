@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+	width:375px;
+	height:667px;
+	margin:auto;
+	font-family: 'Roboto', sans-serif;
+	color:#aa61f7;
+	border-style: solid;
+	border-color:#cccccc;
+	border-width: medium;
+}
+
+#app{
+	width:375px;
+	height:667px;
+	position:relative;
+	top:0px;
+}
+
+#help{
+	position: absolute;
+	bottom:5px;
+	right:20px
+}
+
+#loct{
+position: absolute;
+top:80px;
+left:25px;
+}
+
+input{
+	color:#aa61f7;
+}
+
+input[type=text]{
+	background-color: rgba(255, 255,255, 0.5);
+	height:40px;
+	width:250px;
+	padding-left:10px;
+}
+
+input[type=text]:focus{
+	border-style: solid;
+	border-color:#aa61f7;
+}
+
+input[type=submit]{
+	background-color: rgba(255, 255,255, 0.5);
+	height:40px;
+	width:40px;
+}
+
+#go img{
+	height:40px;
+	width:auto;
+}
+
+#locate{
+	position:absolute;
+	bottom:10px;
+	left:20px;
+}
+
+#menu{
+	width:100%;
+	height:50px;
+	background-color: white;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+
+#button{
+	padding:10px;
+}
+
+.buttons{
+	color:#aa61f7;
+	background-color:white;
+	padding:10px 20px 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	border-style: solid;
+	border-color:gray;
+	border-width: thin;
+}
+
+#helpChoice{
+	color:gray;
+	width:75%;
+position: relative;
+top:30%;
+left:15%;
+font-size:15pt;
+text-align:center;
+}
+
+#authorities{
+	position:relative;
+	top:40px;
+}
+
+#companion{
+	position:relative;
+top:80px;
+}
+
+#cancel{
+	color:gray;
+	font-size:10pt;
+	display: block;
+	padding-top:120px;
+}
+
+#record{
+	padding-top:30px;
+}
+
+#nearby{
+	position:relative;
+	top:40px;
+	display:block;
+}
+
+#contactChoice{
+	position:relative;
+	top:50px;
+	display:block;
+}
+
+#pathButtons{
+	position:absolute;
+	top:80%;
+	left:15%;
+}
+
+#pathCancel{
+	margin-right:75px;
+}
+
+#arrived{
+	color:gray;
+	font-size:15pt;
+	position:relative;
+	top:40%;
+	text-align: center;
+}
+
+#arrived p{
+	margin-bottom:50px;
+}
+
+#contacts{
+	position:relative;
+	top:100px;
+	width:90%;
+	margin:auto;
+}
+
+#contacts h3{
+	font-size:15pt;
+	padding-bottom:30px;
+}
+
+#contacts ul{
+	padding-bottom: 30px;
+}
+
+#contacts li{
+	width:80%;
+	margin:auto;
+	list-style: none;
+	font-size:11pt;
+	padding:15px 10px 10px 10px;
+	border-style:solid;
+	border-color:gray;
+	border-width: thin;
+}
+
+#contacts li:active{
+	background-color:#d9d9d9;
+}
+
+#contacts li.active{
+	background-color:#d9d9d9;
+}
+
+#contactgo{
+	font-size:15pt;
+	position:relative;
+	left:40%;
+}
+
+#contactcancel{
+	color:gray;
+	font-size:10pt;
+	display: block;
+	text-align: center;
+	margin-top:40px;
+}

@@ -26,31 +26,44 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-geocoder-mapzen/1.7.1/leaflet-geocoder-mapzen.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-geocoder-mapzen/1.7.1/leaflet-geocoder-mapzen.js"></script>
 <script src='script.js' type="text/javascript"></script>
-
-<script   src="https://code.jquery.com/jquery-3.1.1.js"   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="   crossorigin="anonymous"></script>
-
-
-    <script src='script.js' type="text/javascript"></script>
 </head>
 
 <body>
 
 <section id="app">
-<img src="map.jpg" alt="image of map" width=375 height=667>
- <div id="map"></div>
 
-<a href="#"><img src="help.svg" alt="image of alarm" width=70 id="help"></a>
-
-<form action="#" id="loct">
-  <input type="text" name="destination" placeholder="Where are you going?">
-  <input type="submit" value="Go" id="go">
-</form>
+<section id="contacts">
+  <h3>Choose your companions:</h3>
+ <ul>
+   <li onclick="this.style.background='#d9d9d9'">Aaron Ngai</li>
+   <li onclick="this.style.background='#d9d9d9'">Isaac Tseng</li>
+   <li onclick="this.style.background='#d9d9d9'">Isabel Liaw</li>
+   <li onclick="this.style.background='#d9d9d9'">Linh Quan</li>
+   <li onclick="this.style.background='#d9d9d9'">Selena Chen</li>
+   <li onclick="this.style.background='#d9d9d9'">Vivian Luu</li>
+ </ul>
+ <a href="map_path.html" class="buttons" id="contactgo">Go</a>
+ <a href="index.html" id="contactcancel">Cancel</a>
+</section>
 
 <a href="#"><img src="locate.svg" alt="locate button" width=50 id="locate"></a>
 
 <nav id="menu">
 <a href="#"><img src="menubutton.svg" alt="menu button" width=30 height=30 id="button"></a>
 </nav>
+
+<div id="menulist">
+<ul>
+  <li><a href="#">Profile</a></li>
+  <li><a href="#">Be A Companion</a></li>
+  <li><a href="#">Invite Friends</a></li>
+  <li><a href="#">FAQ</a></li>
+  <li><a href="#">Log Off</a></li>
+</ul>
+</div>
+
+<a href="#"><img src="help.svg" alt="image of alarm" width=70 id="help"></a>
+
 
 </section>
 </html>
