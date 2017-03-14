@@ -39,6 +39,10 @@ menu.addEventListener("click", function(){
   alert("Menu is currently not available.");
 })
 
+nearby.addEventListener("click", function(){
+  alert("Near by function is currently not available.");
+})
+
   locate.addEventListener("click", function(){
     confirm("Share your location to your friends?");
 })
