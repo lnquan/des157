@@ -13,6 +13,32 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   })
 
+  call.addEventListener("click", function(){
+    var call = confirm("Now Calling");
+    if (call == true){
+      return true;
+      alert("Last page, please go back.");
+    }
+    else{
+      return false;
+    }
+  })
+
+  message.addEventListener("click", function(){
+    var message = confirm("Take me to messaging page");
+    if (message == true){
+      return true;
+      alert("Last page, please go back.");
+    }
+    else{
+      return false;
+    }
+  })
+
+menu.addEventListener("click", function(){
+  alert("Menu is currently not available.");
+})
+
   locate.addEventListener("click", function(){
     confirm("Share your location to your friends?");
 })
