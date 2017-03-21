@@ -19,4 +19,8 @@ map.addControl(new mapboxgl.GeolocateControl({
 }));
   console.log("location accuracy loaded");
 
+  map.addControl(new MapboxGeocoder({
+    accessToken: mapboxgl.accessToken
+}));
+
 });
