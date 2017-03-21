@@ -3,6 +3,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     console.log("DOM fully loaded and parsed");
 
+
     mapboxgl.accessToken = 'pk.eyJ1IjoibG5xdWFuIiwiYSI6ImNpejkwbGxlbjAxYXYyd284d2EyMmt1djQifQ.n0tAM06NGvw7Q4SEEdbY4w';
     var map = new mapboxgl.Map({
         container: 'map',
