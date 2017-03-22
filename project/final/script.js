@@ -21,6 +21,7 @@ map.addControl(new mapboxgl.GeolocateControl({
 
   map.addControl(new MapboxGeocoder({
     accessToken: mapboxgl.accessToken
+
 }));
 
 });
