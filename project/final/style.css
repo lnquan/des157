@@ -18,6 +18,7 @@
 body {
     margin: 0;
     padding: 0;
+		font-family: 'Roboto', sans-serif;
 }
 
 #map {
@@ -28,11 +29,6 @@ body {
     height: 100%;
 }
 
-#mapSearch{
-	position: absolute;
-	top:100px;
-	width:50%;
-}
 
 #searchStyle{
 	width:275px;
@@ -47,7 +43,40 @@ body {
 	position:relative;
 	top:0;
 	left:0;
-	width:100%;
+	width:100vh;
 	height:50px;
 	background-color:white;
+}
+
+#menuButton{
+	width:35px;
+	height:35px;
+	position: absolute;
+	top:8px;
+	left: 8px;
+}
+
+
+#menu{
+	position:absolute;
+	top:0;
+	left:0;
+	width:50%;
+	height:100%;
+	background-color:white;
+	z-index: 2;
+}
+
+#menu ul{
+	list-style: none;
+	margin-left:10px;
+}
+
+#menu li{
+	padding-top:30px;
+}
+
+#menu a{
+	color:#aa61f7;
+	text-decoration: none;
 }
