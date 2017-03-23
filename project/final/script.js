@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
         lng = position.coords.longitude;
 
         // now latitude and longitude are available
-      
+
     }
     getLocation();
 
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     var map = new mapboxgl.Map({
         container: 'map',
-        center:[lat,lng],
+        // center:[lat,lng],
         style: 'mapbox://styles/lnquan/cj031ahqh001v2rsb2qz83etk'
     });
     console.log("var map testing");
