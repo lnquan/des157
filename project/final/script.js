@@ -2,11 +2,31 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     console.log("DOM fully loaded and parsed");
+    var lat;
+    var lng;
 
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(getCoordinates);
+        } else {
+            alert("4");
+        }
+    }
+
+    function getCoordinates(position) {
+        lat = position.coords.latitude;
+        lng = position.coords.longitude;
+
+        // now latitude and longitude are available
+      
+    }
+    getLocation();
 
     mapboxgl.accessToken = 'pk.eyJ1IjoibG5xdWFuIiwiYSI6ImNpejkwbGxlbjAxYXYyd284d2EyMmt1djQifQ.n0tAM06NGvw7Q4SEEdbY4w';
+
     var map = new mapboxgl.Map({
         container: 'map',
+        center:[lat,lng],
         style: 'mapbox://styles/lnquan/cj031ahqh001v2rsb2qz83etk'
     });
     console.log("var map testing");
@@ -23,5 +43,23 @@ map.addControl(new mapboxgl.GeolocateControl({
     accessToken: mapboxgl.accessToken
 
 }));
+
+var menuButton = document.getElementById('menuButton');
+
+menuButton.addEventListener('click', function() {
+  menu.style.display="block";
+  console.log("menu show");
+
+    });
+    menuButton2.addEventListener('click', function() {
+      menu.style.display="none";
+      console.log("menu close");
+
+        });
+
+//////////////////////////////////////
+
+
+
 
 });
