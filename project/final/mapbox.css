@@ -82,8 +82,8 @@
     background-image: url("compass.svg");
     background-repeat: no-repeat;
     position:absolute;
-    bottom:-960%;;
-    left:-17%;
+    bottom:-590px;;
+    left:-50px;
 
 }
 .mapboxgl-ctrl-icon.mapboxgl-ctrl-geolocate.watching  {
