@@ -80,9 +80,10 @@
 /* Press this to locate yourself*/
 .mapboxgl-ctrl-icon.mapboxgl-ctrl-geolocate  {
     background-image: url("compass.svg");
+    background-repeat: no-repeat;
     position:absolute;
-    bottom:-89%;
-    left:8%;
+    bottom:-1000%;;
+    left:-17%;
 
 }
 .mapboxgl-ctrl-icon.mapboxgl-ctrl-geolocate.watching  {
