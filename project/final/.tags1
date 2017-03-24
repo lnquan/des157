@@ -35,6 +35,13 @@ footer a	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project
 #contacts li	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#contacts li{$/;"	function	line:205
 #contacts li:active	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#contacts li:active{$/;"	function	line:215
 #contactgo	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#contactgo{$/;"	function	line:219
-#helpChoice	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#helpChoice{$/;"	function	line:227
-#helpChoice p	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#helpChoice p{$/;"	function	line:233
-#yes, #no	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#yes, #no{$/;"	function	line:238
+#helpChoice	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#helpChoice{$/;"	function	line:226
+#helpChoice p	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#helpChoice p{$/;"	function	line:232
+#yes, #no	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#yes, #no{$/;"	function	line:237
+#compMode	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#compMode{$/;"	function	line:246
+#compMode p	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#compMode p{$/;"	function	line:251
+#compCancel	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#compCancel{$/;"	function	line:256
+#login	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#login{$/;"	function	line:265
+.np	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^.np{$/;"	function	line:270
+#libutton	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#libutton{$/;"	function	line:281
+#signup	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#signup{$/;"	function	line:292

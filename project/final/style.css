@@ -223,7 +223,6 @@ footer a{
 }
 
 /* ////////////// Help Page CSS///////////////// */
-
 #helpChoice{
   width:60%;
   margin:30% auto;
@@ -241,4 +240,59 @@ footer a{
   text-align: center;
   display:block;
   margin-bottom: 20px;
+}
+
+/* ////////////// Companion Page CSS///////////////// */
+#compMode{
+  width:75%;
+  margin:30% auto;
+}
+
+#compMode p{
+  font-size: 10pt;
+  padding-bottom:10px;
+}
+
+#compCancel{
+  font-size: 9pt;
+  text-align: center;
+  width:20px;
+  margin:auto;
+  padding:30px 10px 0px 0px;
+}
+
+/* ////////////// Log In Page CSS///////////////// */
+#login{
+  width:60%;
+  margin: 40% auto;;
+}
+
+.np{
+  font-size: 10pt;
+  width:100%;
+  padding:10px 0px 10px 0px;
+  border-style: solid;
+  border-color:#8a68ad;
+	border-width: thin;
+  display:block;
+  margin-bottom: 30px;
+}
+
+#libutton{
+  display: block;
+  width: auto;
+  margin:auto;
+  border-style: solid;
+  border-color:#8a68ad;
+	border-width: thin;
+  background-color:white;
+padding:10px 20px 10px 20px;
+}
+
+#signup{
+  display: block;
+  font-size: 9pt;
+  color:gray;
+  text-align: center;
+  padding-top:15px;
 }
