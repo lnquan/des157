@@ -97,7 +97,8 @@ body {
 
 
 footer{
-  width: 130px;
+  font-size:9pt;
+  width: 110px;
   height: auto;
   position: absolute;
   bottom:0px;
