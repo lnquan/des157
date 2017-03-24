@@ -21,13 +21,17 @@
 .mapboxgl-ctrl-top-left,
 .mapboxgl-ctrl-top-right,
 .mapboxgl-ctrl-bottom-left,
-.mapboxgl-ctrl-bottom-right  { position:absolute; pointer-events:none; z-index:2; }
+.mapboxgl-ctrl-bottom-right  { position:absolute;
+  /*pointer-events:none; */
+  z-index:2; }
 .mapboxgl-ctrl-top-left      { top:0; left:0; }
 .mapboxgl-ctrl-top-right     { top:0; right:0; }
 .mapboxgl-ctrl-bottom-left   { bottom:0; left:0; }
 .mapboxgl-ctrl-bottom-right  { right:0; bottom:0; }
 
-.mapboxgl-ctrl { clear:both; pointer-events:auto }
+.mapboxgl-ctrl { clear:both;
+  /*pointer-events:auto */
+}
 .mapboxgl-ctrl-top-left .mapboxgl-ctrl { margin:10px 0 0 10px; float:left; }
 .mapboxgl-ctrl-top-right .mapboxgl-ctrl{ margin:10px 10px 0 0; float:right; }
 .mapboxgl-ctrl-bottom-left .mapboxgl-ctrl { margin:0 0 10px 10px; float:left; }
@@ -176,7 +180,7 @@ a.mapboxgl-ctrl-logo {
     display: -webkit-flex;
     display: flex;
     will-change: transform;
-    pointer-events: none;
+    /*pointer-events: none;*/
 }
 .mapboxgl-popup-anchor-top,
 .mapboxgl-popup-anchor-top-left,
@@ -274,7 +278,7 @@ a.mapboxgl-ctrl-logo {
     border-radius: 3px;
     box-shadow: 0 1px 2px rgba(0,0,0,0.10);
     padding: 10px 10px 15px;
-    pointer-events: auto;
+    /*pointer-events: auto;*/
 }
 .mapboxgl-popup-anchor-top-left .mapboxgl-popup-content {
     border-top-left-radius: 0;

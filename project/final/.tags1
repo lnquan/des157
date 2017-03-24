@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+body	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^body {$/;"	function	line:12
+.noShow	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^.noShow {$/;"	function	line:20
+#map	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#map {$/;"	function	line:24
+#top	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#top {$/;"	function	line:33
+#menuButton, #menuButton2	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#menuButton, #menuButton2 {$/;"	function	line:43
+#menu	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#menu {$/;"	function	line:51
+#menu ul	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#menu ul {$/;"	function	line:62
+#menu li	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#menu li {$/;"	function	line:69
+a	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^a {$/;"	function	line:73
+#help	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#help{$/;"	function	line:80
+#go	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#go{$/;"	function	line:89
+footer	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^footer{$/;"	function	line:96
+footer li	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^footer li{$/;"	function	line:105
+footer a	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^footer a{$/;"	function	line:109
+#unavail	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#unavail{$/;"	function	line:115
+#unavail p	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#unavail p{$/;"	function	line:120
+#unavail a	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#unavail a{$/;"	function	line:124
+#unavail a:active	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#unavail a:active{$/;"	function	line:130
+#profile	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#profile{$/;"	function	line:135
+#profile img	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#profile img{$/;"	function	line:141
+#watched	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#watched{$/;"	function	line:148
+#profile a	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#profile a{$/;"	function	line:152
+#helpChoice	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#helpChoice{$/;"	function	line:160
+#helpButtons	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#helpButtons{$/;"	function	line:166
+.buttons	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^.buttons{$/;"	function	line:173
+#cancel	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#cancel{$/;"	function	line:186
+#contacts	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#contacts{$/;"	function	line:193
+#contacts ul	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#contacts ul{$/;"	function	line:200
+#contacts li	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#contacts li{$/;"	function	line:205
+#contacts li:active	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#contacts li:active{$/;"	function	line:215
+#contactgo	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#contactgo{$/;"	function	line:219
+#helpChoice	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#helpChoice{$/;"	function	line:227
+#helpChoice p	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#helpChoice p{$/;"	function	line:233
+#yes, #no	/Users/linhquan/Desktop/UCD/DES 157 Interactive Media II/des157/project/final/style.css	/^#yes, #no{$/;"	function	line:238
